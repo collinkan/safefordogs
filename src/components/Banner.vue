@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <div id="logo">
-            <img alt="temp_logo" src="../assets/temp_logo.jpeg">
-        </div>
-        <div id="searchbar">
+    <div id="wrapper">
+        <div>
+            <img alt="temp_logo" src="../assets/temp_logo.jpeg" style="padding-top:50px;padding-bottom:25px">
             <search-bar></search-bar>
         </div>
     </div>
@@ -19,10 +17,11 @@
 </script>
 
 <style scoped>
-    #logo {
-        float: left;
-    }
-    #searchbar {
-        float: left;
+    #wrapper {
+        background-color: lightskyblue;
+        text-align: center;
+        border: 2px solid black;
+        width: 100%;
+        height: 500px;
     }
 </style>

@@ -1,6 +1,7 @@
 <template>
     <div>
-        <input v-model="query" placeholder="Search">
+        <input @keydown.enter="searched" v-model="query" placeholder="Search" size="50">
+        <button @click="searched">Go</button>
     </div>    
 </template>
 
@@ -8,7 +9,12 @@
 export default {
     data: function() {
         return {
-            query: ''
+            query: '',
+        }
+    },
+    methods: {
+        searched() {
+            alert("Searching for " + this.query)
         }
     }
 }
