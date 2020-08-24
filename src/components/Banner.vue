@@ -1,6 +1,7 @@
 <template>
     <div>
-        <img src="./assets/temp_logo.jpeg">
+        <p>Test</p>
+        <img alt="temp_logo" src="../assets/temp_logo.jpeg">
     </div>
 </template>
 
