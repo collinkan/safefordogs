@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="logo">
+        <div id="logo">
             <img alt="temp_logo" src="../assets/temp_logo.jpeg">
         </div>
-        <div class="searchbar">
+        <div id="searchbar">
             <search-bar></search-bar>
         </div>
     </div>
@@ -20,11 +20,9 @@
 
 <style scoped>
     #logo {
-        text-align: center; 
-        font-size: 50px;
+        float: left;
     }
-
     #searchbar {
-
+        float: left;
     }
 </style>
