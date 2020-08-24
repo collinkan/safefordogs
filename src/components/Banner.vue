@@ -1,18 +1,30 @@
 <template>
     <div>
-        <p>Test</p>
-        <img alt="temp_logo" src="../assets/temp_logo.jpeg">
+        <div class="logo">
+            <img alt="temp_logo" src="../assets/temp_logo.jpeg">
+        </div>
+        <div class="searchbar">
+            <search-bar></search-bar>
+        </div>
     </div>
 </template>
 
 <script>
-export default {
-    
-}
+    import SearchBar from './SearchBar.vue'
+    export default {
+        components: {
+            'search-bar': SearchBar
+        }
+    }
 </script>
 
 <style scoped>
-    div {
-        text-align: center;
+    #logo {
+        text-align: center; 
+        font-size: 50px;
+    }
+
+    #searchbar {
+
     }
 </style>
