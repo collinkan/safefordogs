@@ -1,7 +1,7 @@
 <template>
     <div id="container">
         <div class="logo">
-            <img alt="temp_logo" src="../../assets/temp_logo.jpeg">
+            <img alt="temp_logo" src="">
         </div>
         <div class="search">
             <search-bar></search-bar>
@@ -20,10 +20,8 @@
 
 <style scoped>
     #container {
-        display: table;
-        min-width: 100%;
         padding: 25px;
-        background-color: lightskyblue;
+        background-color: transparent;
         text-align: center;
     }
 

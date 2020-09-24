@@ -1,20 +1,14 @@
 <template>
   <div>
-    <banner></banner>
-    <br>
-    <hr>
-    <br>
-    <navigation></navigation>
+    <Backdrop></Backdrop>
   </div>
 </template>
 
 <script>
-  import Banner from './components/Banner/Banner.vue'
-  import Nav from './components/Nav.vue'
+  import Backdrop from './views/Backdrop.vue'
   export default{
     components: {
-      banner: Banner,
-      navigation: Nav
+      Backdrop: Backdrop
     }
   }
 </script>
