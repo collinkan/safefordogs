@@ -25,8 +25,13 @@
     position:absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../assets/temp_logo.jpeg");
+    background-image: url("../assets/temp_bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    background-position: 0 -100px;
+  }
+
+  .banner{
+    margin-top: 150px
   }
 </style>

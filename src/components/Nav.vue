@@ -15,7 +15,7 @@
 
 <style scoped>
     div {
-        background-color: cornflowerblue;
+        background-color: rgba(50, 125, 200, 0.5);
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;

@@ -30,6 +30,7 @@
     }
 
     .search {
-        padding: 25px
+        display: inline-block;
+        padding: 25px;
     }
 </style>
