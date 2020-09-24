@@ -20,9 +20,18 @@
 
 <style scoped>
     #container {
+        display: table;
+        min-width: 100%;
         padding: 25px;
         background-color: lightskyblue;
         text-align: center;
-        min-width: 100%;
+    }
+
+    .logo{
+        padding: 25px
+    }
+
+    .search {
+        padding: 25px
     }
 </style>

@@ -1,12 +1,8 @@
 <template>
     <div id="wrapper">
         <div class="bar">
-            <div>
-                <input @keydown.enter="searched" v-model="query" type="text" placeholder="Search">
-            </div>
-            <div>
-                <button @click="searched">Go</button>
-            </div>
+            <input @keydown.enter="searched" v-model="query" type="text" placeholder="Search">
+            <button @click="searched"></button>
         </div>
     </div>    
 </template>
@@ -28,20 +24,42 @@ export default {
 
 <style scoped>
     *{
-        outline: none
-    }
-    #wrapper{
-        width: 500px;
-        background-color: plum;
-        padding: 25px;
-        border-radius: 25px;
-        box-shadow: 0 0 5px 15px rgba(0, 0, 0, 0.8);
+        outline: none;
+        border: none;
     }
 
-    input[type='text']{
-        text-align: center;
+    #wrapper{
+        display: inline-block;
+        background-color: plum;
+        padding: 15px;
+        border-radius: 25px;
+        box-shadow: 0 0 2px 10px rgba(250, 250, 250, 0.8);
+    }
+
+    .bar{
+        display: flex;
+    }
+
+    input[type='text'], button{
+        color: rgb(250,250,250);
+        background-color: transparent;
         font-family: 'Nunito', sans-serif;
         font-weight: 800;
+        font-size: 30px;
+        padding: 10px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    input[type='text']::placeholder{
+        color: rgb(150,100,150);
+    }
+
+    button{
+        width: 64px;
+        background-image: url("../../assets/temp_search.png");
+        background-size: 60px;
+        background-repeat: no-repeat;
+        background-position: 1px 1px;
     }
 
 </style>
