@@ -1,13 +1,15 @@
 <template>
   <div>
     <banner></banner>
+    <br>
     <hr>
+    <br>
     <navigation></navigation>
   </div>
 </template>
 
 <script>
-  import Banner from './components/Banner.vue'
+  import Banner from './components/Banner/Banner.vue'
   import Nav from './components/Nav.vue'
   export default{
     components: {
@@ -17,6 +19,8 @@
   }
 </script>
 
-<style scoped>
-
+<style>
+  *{
+    margin: 0;
+  }
 </style>

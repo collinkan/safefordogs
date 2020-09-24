@@ -8,14 +8,13 @@
 </template>
 
 <script>
-export default {
-    
-}
+    export default {
+        
+    }
 </script>
 
 <style scoped>
     div {
-        border: 2px solid black;
         background-color: cornflowerblue;
         text-align: center;
         padding-top: 10px;
@@ -29,5 +28,6 @@ export default {
         margin-left: 100px;
         margin-right: 100px;
     }
+
 </style>
 
