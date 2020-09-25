@@ -60,7 +60,13 @@ export default {
         background-size: 60px;
         background-repeat: no-repeat;
         background-position: 1px 1px;
-        opacity: 0.85;
+        opacity: 0.70;
+    }
+    button:hover{
+        opacity: 0.90;
+    }
+    button:active{
+        opacity: 0.70;
     }
 
 </style>
