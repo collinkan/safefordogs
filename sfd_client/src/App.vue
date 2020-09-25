@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Backdrop></Backdrop>
+    <back-drop></back-drop>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
   import Backdrop from './views/Backdrop.vue'
   export default{
     components: {
-      Backdrop: Backdrop
+      'back-drop': Backdrop
     }
   }
 </script>
