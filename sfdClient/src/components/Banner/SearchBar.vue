@@ -30,10 +30,10 @@ export default {
 
     #wrapper{
         display: inline-block;
-        background-color: plum;
+        background-color: rgba(221,160,221, 0.85);
         padding: 15px;
         border-radius: 25px;
-        box-shadow: 0 0 2px 10px rgba(250, 250, 250, 0.8);
+        box-shadow: 0 0 2px 10px rgba(250, 250, 250, 0.95);
     }
 
     .bar{
@@ -51,7 +51,7 @@ export default {
         cursor: pointer;
     }
     input[type='text']::placeholder{
-        color: rgb(150,100,150);
+        color: rgba(150, 100, 150, 0.85);
     }
 
     button{
@@ -60,6 +60,7 @@ export default {
         background-size: 60px;
         background-repeat: no-repeat;
         background-position: 1px 1px;
+        opacity: 0.85;
     }
 
 </style>

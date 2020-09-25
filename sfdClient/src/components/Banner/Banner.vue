@@ -1,7 +1,7 @@
 <template>
     <div id="container">
         <div class="logo">
-            <img alt="temp_logo" src="">
+            Safe For Dogs?
         </div>
         <div class="search">
             <search-bar></search-bar>
@@ -26,7 +26,11 @@
     }
 
     .logo{
-        padding: 25px
+        color: rgb(221,160,221);
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        font-family: 'Comic Sans MS', sans-serif;
+        font-weight: 1000;
+        font-size: 50px;
     }
 
     .search {
