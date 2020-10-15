@@ -1,0 +1,19 @@
+{
+  "name": "sfd_server_test",
+  "version": "1.0.0",
+  "description": "Node.js RESTful API for Safe For Dogs webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Collin Kan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
