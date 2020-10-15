@@ -13,22 +13,22 @@ router.post('/', (req, res, next) => {
     });
 })
 
-router.get('/:itemId', (req, res, next) => {
-    const id = req.params.itemId;
+router.get('/:item_id', (req, res, next) => {
+    const id = req.params.item_id;
     res.status(200).json({
         message: 'Item ID: ' + id,
     });
 })
 
-router.patch('/:itemId', (req, res, next) => {
-    const id = req.params.itemId;
+router.patch('/:item_id', (req, res, next) => {
+    const id = req.params.item_id;
     res.status(200).json({
         message: 'Upated item ' + id,
     });
 })
 
-router.delete('/:itemId', (req, res, next) => {
-    const id = req.params.itemId;
+router.delete('/:item_id', (req, res, next) => {
+    const id = req.params.item_id;
     res.status(200).json({
         message: 'Deleted item ' + id,
     });
