@@ -8,8 +8,14 @@ router.get('/', (req, res, next) => {
 })
 
 router.post('/', (req, res, next) => {
+    const item = {
+        name: req.body.name,
+        desc: req.body.desc,
+        sources: req.body.sources,
+    };
     res.status(201).json({
-        message: 'Post requests to /items'
+        message: 'Post requests to /items',
+        created_item: item,
     });
 })
 
