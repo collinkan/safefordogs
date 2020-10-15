@@ -1,10 +1,14 @@
 const express = require('express');
 const app = express();
+const body_parser = require('body-parser')
 
 //Routes
-const itemRoutes = require('./api/routes/items')
+const item_routes = require('./api/routes/items')
 
-app.use('/items', itemRoutes);
+app.use(body_parser.urlencoded({extended: false}));
+app.use(body_parser.json());
+
+app.use('/items', item_routes);
 
 app.use((req, res, next) => {
     const error = new Error('Not Found');
